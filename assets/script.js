@@ -23,16 +23,17 @@
      suffit. Tant que les identifiants sont des placeholders, rien
      n'est chargé (aucune requête, aucun cookie).
 
-     INACTIF tant que AW_ID et les deux étiquettes contiennent XXXX.
+     ACTIF. Compte 801-654-0899 : « Demande de devis (site) » id 7889333685,
+     « Appel depuis le site » id 7889328475.
 
      IMPORTANT : les conversions Google Ads sont envoyees ICI, en direct.
      Ne PAS creer de balise de conversion Google Ads dans GTM : elle
      compterait une deuxieme fois la meme conversion. GTM reste dedie a
      GA4 et aux autres outils.
      ============================================================ */
-  var AW_ID = 'AW-XXXXXXXXXX';   // compte Ads de Laurent à créer
-  var LABEL_DEVIS = 'XXXX';
-  var LABEL_APPEL = 'XXXX';
+  var AW_ID = 'AW-18555582876';   // compte 801-654-0899
+  var LABEL_DEVIS = 'J2NICLXb9rEdEJzz_o9F';
+  var LABEL_APPEL = 'j5wNCNuy9rEdEJzz_o9F';
   var adsOn = AW_ID.indexOf('XXXX') === -1;
 
   if (adsOn) {
